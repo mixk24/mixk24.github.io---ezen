@@ -615,10 +615,6 @@ body {
   align-items: center;
   width: 60%;
   height: 100%;
-  /*.img5 {
-      background: url('') no-repeat 0 0;
-      background-size: cover;
-  }*/
 }
 .portfolio_wrap .port-img .imges-wrap {
   width: 90%;
@@ -650,6 +646,10 @@ body {
 }
 .portfolio_wrap .port-img .img4 {
   background: url("/images/portfolio/샐러디main (1).jpg") no-repeat 0 0;
+  background-size: cover;
+}
+.portfolio_wrap .port-img .img5 {
+  background: url("/images/web.jpg") no-repeat 0 0;
   background-size: cover;
 }
 
