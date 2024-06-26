@@ -321,6 +321,8 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 #header .logo {
   display: flex;
@@ -348,6 +350,9 @@ body {
   font-weight: 700;
 }
 
+.sec1 {
+  padding-top: 84px;
+}
 .sec1 .container-index {
   display: flex;
   justify-content: center;
@@ -597,7 +602,6 @@ body {
 
 .pfs {
   height: 100vh;
-  background: #000;
 }
 
 .portfolio_wrap {
@@ -613,12 +617,13 @@ body {
 .portfolio_wrap .port-img {
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 60%;
   height: 100%;
 }
 .portfolio_wrap .port-img .imges-wrap {
-  width: 90%;
-  height: 90%;
+  width: 60%;
+  height: 70%;
   border-radius: 30px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -653,10 +658,6 @@ body {
   background-size: cover;
 }
 
-.sec5 {
-  background: #000 no-repeat 50% 50%/contain;
-}
-
 .port-texts {
   position: relative;
   width: 40%;
@@ -664,9 +665,6 @@ body {
 }
 .port-texts .ti1 {
   color: #000000;
-}
-.port-texts .ti2 {
-  color: #fff;
 }
 .port-texts .text-info {
   width: 100%;
