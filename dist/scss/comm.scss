@@ -985,7 +985,7 @@ body {
     justify-content: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 375px) {
     .contact-info {
         flex-direction: column;
     }
@@ -1004,7 +1004,7 @@ body {
     }
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1024px) {
     .sec1 #blobSvg {
         transform: scale(0.8);
     }
